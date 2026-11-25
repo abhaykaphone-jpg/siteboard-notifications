@@ -1,0 +1,10 @@
+{
+  "name": "siteboard-scheduler",
+  "private": true,
+  "description": "Sends Site Board notifications (morning, afternoon, evening, reminders, new tasks).",
+  "main": "send-notifications.js",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "firebase-admin": "^12.1.0"
+  }
+}
